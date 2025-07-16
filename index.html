@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Calculadora de IMC</h2>
+
+        <form id="formulario">
+            <label for="peso">Peso (kg)</label>
+            <input   
+                type="number"
+                step="0.1" 
+                min="0.0"
+                max="500"
+                name="peso" 
+                id="peso"
+                class="input"
+                autofocus
+                required
+            >
+                
+            <label for="altura">Altura (m)</label>
+            <input 
+                type="number"
+                step="0.01" 
+                min="0" 
+                max="2.70" 
+                name="altura"
+                id="altura"
+                class="input"
+                required
+            >
+            
+            <div class="botoes">
+                <input
+                    type="submit"
+                    value="Enviar" 
+                    id="btnenviar"
+                    class="botoes"
+                >
+                <input
+                    type="reset" 
+                    value="Limpar" 
+                    id="btnlimpar"
+                    class="botoes"
+                >
+            </div>
+
+            <label for="btnimc">IMC</label>
+            <input 
+                id="btnimc" 
+                type="number" 
+                value="0.0" 
+                disabled 
+            >
+        </form>
+
+        <div id="aviso"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
