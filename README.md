@@ -23,14 +23,6 @@ Este projeto foi criado com o objetivo de praticar estruturação de páginas, e
 
 ---
 
-## 🧮 Fórmula utilizada
-
-O cálculo do IMC é feito com a seguinte fórmula:
-
-IMC = peso ÷ (altura × altura)
-
----
-
 ## 🛠 Tecnologias Utilizadas
 
 - HTML5
